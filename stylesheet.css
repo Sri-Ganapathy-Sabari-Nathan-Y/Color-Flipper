@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+}
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-links :nth-of-type(2){
+    margin-left: 5px;
+}
+.container{
+    margin: 20% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+footer{
+    display: none;
+}
