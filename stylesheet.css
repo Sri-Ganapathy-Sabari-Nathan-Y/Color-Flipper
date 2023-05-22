@@ -46,3 +46,6 @@ main>.container{
     font-weight: bold;
     padding: 10px;
 }
+footer{
+    display: none;
+}
